@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon２.ico" type="image/x-icon">
+    <title>ショッピングカート</title>
+    <style>
+          @font-face {
+            font-family: "devil";
+            src: url("devil.ttf") format("truetype");
+        }
+        @font-face {
+            font-family: "cool";
+            src: url("cool.otf") format("truetype");
+        }
+        @font-face {
+            font-family: "sinple";
+            src: url("シンプル.ttf") format("truetype");
+        }
+
+        body {
+            margin: 0;
+            width: 100%;
+        }
+
+        header {
+            background-color: black;
+            padding: 1px 0;
+            margin: 0;
+            width: 100%;
+            
+        }
+
+
+
+        .one {
+            text-align: center;
+            font-family: "devil",sans-serif;
+            color:red;
+            font-size: 35px;
+            height: 90px;
+            line-height: 60px;
+            width: 100%;
+        }
+        .two {
+            list-style: none;
+            text-align: center;
+            width: 100%;
+        }
+
+        header a[href] {
+            text-decoration: none;
+            color: white;
+            width: 100%;
+        }
+
+        header li {
+            text-align: center;
+            display: inline-block;
+            width: 150px;
+        }
+        h1 {
+            line-height: 100px;
+            text-align: center;
+        }
+
+
+        @media screen and (max-width: 1000px) {
+
+header li {
+    width: 200px;
+}
+
+header {
+    height: 290px;
+    width: 100%;
+}
+
+.one {
+    font-size: 60px;
+    min-height: 90px;
+    line-height: 150px;
+    letter-spacing: 10px;
+}
+
+.two {
+    font-size: 40px;
+}
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="all">
+            <div class="one">
+                <h1>AmoN</h1>
+            </div>
+            <div class="two">
+                <ul>
+                    <li><a href="#">ジャケット</a></li>
+                    <li><a href="#">Tシャツ</a></li>
+                    <li><a href="#">パーカー</a></li>
+                    <li><a href="#">デニム</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>カートには何もありません。</h1>
+    </main>
+    <h1>れお君、あもん君。服売りな!</h1>
+</body>
+</html>
